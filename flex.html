@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex</title>
+  <style>
+    
+    body {
+        background-color: black;
+        min-height: 100vh;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    header {
+        height: 100px;
+        background-color: pink;
+        
+        
+    }
+
+    .header-content {
+      max-width: 1128px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: 7;
+      height: 100%;
+
+    }
+
+    .menu {
+        display: flex;
+        gap: 20px;
+    }
+
+    nav {
+        display: flex;
+        gap: 20px;
+    }
+
+    section {
+        min-height: 60rem;
+    }
+
+    .content-home {
+        margin: 0 auto;
+        display: flex;
+        min-width: 1128px;
+        justify-content: space-between;
+    }
+
+    .hero {
+        display: flex;
+        align-items: 7;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+
+    <div class="menu">
+      <div class="logo">LOGO</div>
+
+      <nav>
+        <a href="">inicio</a>
+        <a href="">Sobre</a>
+        <a href="">Contato</a>
+        <a href="">Alguma coisa</a>
+      </nav>
+    </div>
+
+    <button>Entrar</button>
+    </div>
+  </header>
+  
+<section class="hero" style="background-color: darkgrey;">
+    <div class="content-home">
+        <div style="background-color: yellow; height: 600px; width: 500px" >
+        </div>
+
+        <div style="background-color: yellow; height: 600px; width: 500px">
+        </div>
+    </div>
+</section>
+
+<section class="product" style="background-color: darkcyan;">
+
+</section>
+
+<section class="features" style="background-color: darkgreen;">
+
+</section>
+
+<section class="marketplace" style="background-color: darkcyan;">
+
+</section>
+
+<section class="company" style="background-color: darkorange;">
+
+</section>
+
+<footer class="rodape">
+
+</footer>
+
+</body>
+</html>

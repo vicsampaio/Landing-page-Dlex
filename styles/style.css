@@ -1,3 +1,5 @@
+/*--- geral ---*/
+
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
  * {
@@ -5,15 +7,21 @@
     padding: 0;
     font-family: 'Poppins', sans-serif; }
 
-    /* navegacao */
+/*--- navegacao --- */
 
 .container-navegacao {
     display: flex;
     padding: 25px ;
-    justify-content: flex-start;
+    justify-content: space-around;
     position: relative;
     gap: 60px;
 }
+
+.navegacao {
+    display: flex;
+    gap: 50px;
+}
+
 
 .container-navegacao button {
     width: 127px;
@@ -23,10 +31,31 @@
     background: transparent;
 }
 
-.container-navegacao .navegacao {
+/* --- home ---*/
+
+.home-page {
     display: flex;
-    gap: 48px;
+    justify-content: space-around;
+    font-size: 25px;
+    margin: 30px 60px;
 }
 
-   /* home */
+.content-home {
+        padding: 80px;
+}
 
+.home-btn {
+    width: 127px;
+    height: 40px;
+    border: 1px solid rgba(18, 17, 39, 0.12);
+    border-radius: 8px;
+    background: transparent;
+}
+
+.home-btn1{
+    width: 127px;
+    height: 40px;
+    border: 1px solid rgba(18, 17, 39, 0.12);
+    border-radius: 8px;
+    background:  #444BD3;
+}
