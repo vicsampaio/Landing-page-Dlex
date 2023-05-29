@@ -5,7 +5,8 @@
  * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif; }
+    font-family: 'Poppins', sans-serif; 
+ }
 
 /*--- navegacao --- */
 
@@ -14,7 +15,7 @@
     padding: 25px ;
     justify-content: space-around;
     position: relative;
-    gap: 60px;
+
 }
 
 .navegacao {
@@ -32,16 +33,33 @@
 }
 
 /* --- home ---*/
+body {
+    background: linear-gradient(248.66deg, #FFF1F1 0%, #E9F8FB 100%);
+    min-height: 100vh;
+
+}
 
 .home-page {
     display: flex;
     justify-content: space-around;
     font-size: 25px;
-    margin: 30px 60px;
+    margin: 50px ;
+    min-height: 100vh;
+    
 }
 
 .content-home {
         padding: 80px;
+}
+.content-home h1 {
+    font-size: 50px;
+ }
+
+.content-home p {
+   color: rgba(18, 17, 39, 0.56);
+   font-size: 20px;
+   padding: 10px;
+   margin-bottom: 10px;
 }
 
 .home-btn {
@@ -58,4 +76,13 @@
     border: 1px solid rgba(18, 17, 39, 0.12);
     border-radius: 8px;
     background:  #444BD3;
+    color: white;
+}
+
+/*--- product ---*/
+
+.product {
+    background-color: white;
+    min-height: 60rem;
+
 }
