@@ -14,15 +14,16 @@
     display: flex;
     padding: 25px ;
     justify-content: space-around;
-    position: relative;
-
+    position: relative;   
+ 
 }
 
 .navegacao {
     display: flex;
     gap: 50px;
+    position: relative;
+    cursor: pointer;
 }
-
 
 .container-navegacao button {
     width: 127px;
@@ -30,6 +31,8 @@
     border: 1px solid rgba(18, 17, 39, 0.12);
     border-radius: 6px;
     background: transparent;
+    cursor: pointer;
+    
 }
 
 /* --- home ---*/
@@ -43,14 +46,15 @@ body {
     display: flex;
     justify-content: space-around;
     font-size: 25px;
-    margin: 50px ;
     min-height: 100vh;
-    
+    padding: 100px;
 }
 
 .content-home {
-        padding: 80px;
+    padding: 80px;
+   
 }
+
 .content-home h1 {
     font-size: 50px;
  }
@@ -68,6 +72,7 @@ body {
     border: 1px solid rgba(18, 17, 39, 0.12);
     border-radius: 8px;
     background: transparent;
+    cursor: pointer;
 }
 
 .home-btn1{
@@ -77,6 +82,7 @@ body {
     border-radius: 8px;
     background:  #444BD3;
     color: white;
+    cursor: pointer;
 }
 
 /*--- product ---*/
@@ -84,5 +90,6 @@ body {
 .product {
     background-color: white;
     min-height: 60rem;
-
+    display: flex;
+    justify-content: center;
 }
