@@ -92,4 +92,11 @@ body {
     min-height: 60rem;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.product-info {
+    display: flex;
+   position: relative;
+   flex-direction: column;
 }
