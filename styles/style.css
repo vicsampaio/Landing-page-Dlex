@@ -101,8 +101,6 @@ body {
   flex-direction: column;
     height: 300px;
     width: 600px;
-    
-
 }
 
 .product-info h4 {
@@ -162,4 +160,11 @@ body {
     color: #444BD3;
     font-weight: bold;
 
+}
+
+/* --- Features ---*/
+.features {
+  background-color: #F2F3FF;
+  min-height: 60rem;
+  display: flex;
 }
