@@ -283,3 +283,28 @@ margin-bottom: 30px;
 color:rgba(18, 17, 39, 0.56);
 margin-bottom: 30px;
 }
+
+.card3 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 16px;
+  width: 110px;
+  height: 26px;  
+  background: #BBF3F7;
+  color: #2A7576;
+  font-weight: bold;
+  border-radius: 100px;
+  border: none;
+}
+
+.card3 h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.card3 p {
+color:rgba(18, 17, 39, 0.56);
+margin-bottom: 30px;
+}
