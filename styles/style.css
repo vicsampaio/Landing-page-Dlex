@@ -210,5 +210,15 @@ body {
 
 .profile1{
   display: flex;
+  flex-direction: column;
+}
 
+
+.profile2{
+  display: flex;
+  flex-direction: row;
+}
+.profile3{
+  display: flex;
+  flex-direction: row;
 }
