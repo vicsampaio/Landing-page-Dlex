@@ -186,7 +186,7 @@ body {
 
 .feat-info button {
   background-color: rgba(68, 75, 211, 1);
-  color: rgb(27, 25, 25);
+  color: white;
   border-radius: 6px;
   border: none;
   margin-top: 20px;
@@ -327,4 +327,9 @@ margin-bottom: 30px;
   display: flex;
   height: 50px;
   gap: 10px;
+}
+
+/*--- company page---*/
+.company {
+  
 }
