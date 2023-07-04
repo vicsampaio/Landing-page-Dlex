@@ -331,5 +331,8 @@ margin-bottom: 30px;
 
 /*--- company page---*/
 .company {
-  
+  background-color: #F9F9FB;
+}
+.logo-company {
+  margin-top: 103px;
 }
