@@ -332,7 +332,17 @@ margin-bottom: 30px;
 /*--- company page---*/
 .company {
   background-color: #F9F9FB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color:#121127;
+  font-weight: 200;
+  text-align: center;
 }
-.logo-company {
+
+.img-company {
   margin-top: 103px;
+  margin-bottom: 32px;
 }
