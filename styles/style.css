@@ -346,3 +346,20 @@ margin-bottom: 30px;
   margin-top: 103px;
   margin-bottom: 32px;
 }
+
+.parag{
+  margin-bottom: 32px;
+}
+
+.profile-company {
+  display: flex;
+  color:#121127;
+  font-size: 14px;
+  margin-bottom: 96px;
+  align-items: center;
+  gap: 10px;
+}
+
+.ceo{
+  color: #858282;
+}
