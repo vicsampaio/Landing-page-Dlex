@@ -363,3 +363,23 @@ margin-bottom: 30px;
 .ceo{
   color: #858282;
 }
+
+/*--- newsletter page ---*/
+.newsdiv{
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+  background-color: #444BD3;
+  width: 1128px;
+  padding: 56px 48px;
+  border-radius: 16px;
+  gap: 32px;
+}
+.newsign h3{
+  color: white;
+}
+.newsign p{
+  color: rgba(255, 255, 255, 0.56);
+}
