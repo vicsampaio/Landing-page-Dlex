@@ -365,6 +365,11 @@ margin-bottom: 30px;
 }
 
 /*--- newsletter page ---*/
+.newsletter{
+  display: flex;
+  justify-content: center;
+}
+
 .newsdiv{
   margin-top: 70px;
   display: flex;
@@ -379,7 +384,37 @@ margin-bottom: 30px;
 }
 .newsign h3{
   color: white;
+  font-size: 32px;
+  margin-bottom: 12px;
 }
 .newsign p{
   color: rgba(255, 255, 255, 0.56);
+  font-size: 16px;
 }
+
+.newemail input{
+  border-radius: 8px;
+  border:none;
+  height: 52px;
+  width: 267px;  
+  margin-bottom: 12px;
+  padding-left: 10px;
+}
+
+.newemail button{
+  border: none;
+  border-radius: 8px;
+  height: 52px;
+  width: 142px;
+  background-color: #6068DB;
+  color: white;
+}
+
+.newemail p {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.48);
+}
+
+/*--- rodapé ---*/
+
+
