@@ -368,6 +368,7 @@ margin-bottom: 30px;
 .newsletter{
   display: flex;
   justify-content: center;
+  background-color: #dfdbdb;
 }
 
 .newsdiv{
@@ -416,5 +417,24 @@ margin-bottom: 30px;
 }
 
 /*--- rodapé ---*/
+.rodape{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #dfdbdb;
+  color: rgba(18, 17, 39, 0.56);
+}
 
+.paiA{
+  display: flex;
+  gap: 48px;
+}
 
+.paI{
+display: flex;
+gap: 48px;
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: 25px;
+}
